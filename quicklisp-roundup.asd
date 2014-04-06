@@ -1,6 +1,4 @@
-;;;; quicklisp-homebrew-roundup.asd
-
-(asdf:defsystem #:quicklisp-homebrew-roundup
+(asdf:defsystem #:quicklisp-roundup
   :serial t
   :description "Describe quicklisp-homebrew-roundup here"
   :author "Nikhil Benesch <nikhil.benesch@gmail.com>"
@@ -8,5 +6,5 @@
   :depends-on (#:quicklisp
                #:ironclad)
   :components ((:file "package")
-               (:file "quicklisp-homebrew-roundup")))
+               (:file "quicklisp-roundup")))
 

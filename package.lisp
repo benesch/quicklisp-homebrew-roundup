@@ -1,6 +1,7 @@
 ;;;; package.lisp
 
-(defpackage #:quicklisp-homebrew-roundup
+(defpackage #:quicklisp-roundup
   (:use #:cl)
-  (:export #:for-system))
+  (:export #:make-homebrew)
+  (:export #:make-tarball))
 
