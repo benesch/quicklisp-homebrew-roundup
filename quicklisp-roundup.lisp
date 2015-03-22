@@ -3,9 +3,9 @@
 (in-package #:quicklisp-roundup)
 
 (defparameter *resource-format-string* "~:
-resource '~A' do
-  url '~A'
-  sha1 '~A'
+resource \"~A\" do
+  url \"~A\"
+  sha256 \"~A\"
 end~%~%")
 
 (defparameter *build-directory*
@@ -34,7 +34,7 @@ end~%~%")
 (defgeneric sha1sum (release)
   (:method (release)
     (ironclad:byte-array-to-hex-string
-      (ironclad:digest-file :sha1 (ql-dist:ensure-local-archive-file release)))))
+      (ironclad:digest-file :sha256 (ql-dist:ensure-local-archive-file release)))))
 
 (defgeneric print-homebrew-resource (release &key stream)
   (:method (release &key (stream t))
