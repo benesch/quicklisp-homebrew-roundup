@@ -97,8 +97,8 @@ If you find a bug, file it away in the [GitHub issue tracker][issues]!
 
 Nikhil Benesch <nikhil.benesch@gmail.com>
 
-[ansible-formula]: https://github.com/Homebrew/homebrew/blob/master/Library/Formula/ansible.rb#L15
+[ansible-formula]: https://github.com/Homebrew/homebrew-core/blob/master/Formula/ansible.rb#L23
 [homebrew]: https://brew.sh
 [install-script-rationale]:
-https://github.com/Homebrew/homebrew/wiki/Formula-Cookbook#wiki-specifying-gems-python-modules-etc-as-dependencies
+https://github.com/Homebrew/brew/blob/master/docs/Formula-Cookbook.md#specifying-gems-python-modules-go-projects-etc-as-dependencies
 [issues]: https://github.com/benesch/quicklisp-homebrew-roundup/issues
